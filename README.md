@@ -11,4 +11,5 @@ NOTE: Needs Android NDK 17 or below
 Reference the path to the NDK in the local.properties file, next to the SDK path. Ex:
 
 sdk.dir={path}/Android/sdk
+
 ndk.dir={path}/Android/sdk/ndk-bundle
