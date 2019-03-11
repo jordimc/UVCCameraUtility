@@ -7,4 +7,8 @@ Tested on:
 * Raspberry 3B
 * Android 7.1.2 (Nougat). Ported to Raspberry by [KonstaKANG.com](https://konstakang.com/devices/rpi3/CM14.1/ "KonstaKANG.com")
 
-Needs Android NDK 17 or below. 
+NOTE: Needs Android NDK 17 or below
+Reference the path to the NDK in the local.properties file, next to the SDK path. Ex:
+
+sdk.dir={path}/Android/sdk
+ndk.dir={path}/Android/sdk/ndk-bundle
