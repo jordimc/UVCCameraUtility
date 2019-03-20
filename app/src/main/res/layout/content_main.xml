@@ -10,8 +10,8 @@
 
     <com.abitari.usb.uvccamerautility.widget.SimpleUVCCameraTextureView
         android:id="@+id/UVCCameraTextureView1"
-        android:layout_width="600px"
-        android:layout_height="480px"
+        android:layout_width="1280px"
+        android:layout_height="720px"
         android:layout_centerInParent="true"
         android:layout_gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
