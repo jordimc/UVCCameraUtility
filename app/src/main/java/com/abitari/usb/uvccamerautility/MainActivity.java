@@ -1,7 +1,9 @@
 package com.abitari.usb.uvccamerautility;
 
+import android.content.Context;
 import android.graphics.SurfaceTexture;
 import android.hardware.usb.UsbDevice;
+import android.hardware.usb.UsbManager;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.v7.widget.Toolbar;
@@ -59,7 +61,7 @@ public class MainActivity extends BaseActivity implements CameraDialog.CameraDia
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
+        Toast.makeText(this, "", Toast.LENGTH_SHORT).show();
         mCameraButton = findViewById(R.id.camera_button);
         mCameraButton.setOnCheckedChangeListener(mOnCheckedChangeListener);
 
